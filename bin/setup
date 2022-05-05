@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Setting up test project..."
+echo "Setting up project..."
 
 REPOSITORY=$1
 DIRECTORY="./$2"
@@ -21,15 +21,11 @@ git clone $REPOSITORY $DIRECTORY
 cd $DIRECTORY
 
 cp .env.example .env
-sed -i '' 's/DB_DATABASE=.*/DB_DATABASE=laravel/' .env
+sed -i '' 's/DB_DATABASE=.*/DB_DATABASE=localhost/' .env
 sed -i '' 's/DB_USERNAME=.*/DB_USERNAME=root/' .env
 sed -i '' 's/DB_PASSWORD=.*/DB_PASSWORD=/' .env
 
-composer install
-php artisan key:generate
-php artisan migrate:fresh --seed
-
-npm install
-npm run dev
+make build
+make run
 
 open -a "/Applications/Visual Studio Code.app" "`pwd`"
