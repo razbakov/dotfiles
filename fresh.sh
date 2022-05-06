@@ -29,6 +29,7 @@ brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
 nvm install node
 nvm use node
 node -v && npm -v
