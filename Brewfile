@@ -22,6 +22,7 @@ brew 'httpie'
 brew 'jq'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'multitail'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'stripe/stripe-cli/stripe'
 brew 'stripe/stripe-mock/stripe-mock'
@@ -63,6 +64,7 @@ brew 'cloudflare/cloudflare/cloudflared'
 # Apps
 cask '1password'
 cask '1password-cli'
+cask 'alfred'
 cask 'caffeine'
 cask 'cloudflare-warp'
 cask 'dbngin'
@@ -78,7 +80,6 @@ cask 'helo'
 cask 'homebrew/cask-drivers/elgato-stream-deck'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'microsoft-teams'
 cask 'ngrok'
 cask 'notion'
 cask 'pastebot'
@@ -118,12 +119,6 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
-mas 'DaVinci Resolve', id: 571213070

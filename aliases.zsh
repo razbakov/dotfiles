@@ -8,6 +8,8 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias compile="commit 'compile'"
 alias version="commit 'version'"
+alias dot="code $DOTFILES"
+alias zshconfig="mate ~/.zshrc"
 
 # Directories
 alias dotfiles="cd $DOTFILES"

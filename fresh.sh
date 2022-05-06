@@ -26,6 +26,14 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
 
+softwareupdate --install-rosetta
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+nvm install node
+nvm use node
+node -v && npm -v
+node -p process.arch
+
 # Set default MySQL root password and auth type
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
