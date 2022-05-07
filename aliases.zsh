@@ -8,7 +8,9 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias compile="commit 'compile'"
 alias version="commit 'version'"
-alias dot="code $DOTFILES"
+alias dot="cd $DOTFILES && code ."
+alias wd="cd $HOME/Sites/wedance.vip && code ."
+alias wh="cd $HOME/Sites/wehelp.live && code ."
 alias zshconfig="mate ~/.zshrc"
 
 # Directories
