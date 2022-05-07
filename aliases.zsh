@@ -10,7 +10,7 @@ alias compile="commit 'compile'"
 alias version="commit 'version'"
 alias dot="cd $DOTFILES && code ."
 alias wd="cd $HOME/Sites/wedance.vip && code ."
-alias wh="cd $HOME/Sites/wehelp.live && code ."
+alias wh="cd $HOME/Sites/wehelp.live && code ." 
 alias zshconfig="mate ~/.zshrc"
 
 # Directories
