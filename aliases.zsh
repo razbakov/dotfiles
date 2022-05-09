@@ -12,6 +12,7 @@ alias dot="cd $DOTFILES && code ."
 alias doti="cd $DOTFILES && ./fresh.sh"
 alias wd="cd $HOME/Sites/wedance.vip && code ."
 alias wh="cd $HOME/Sites/wehelp.live && code ." 
+alias sc="cd $HOME/Sites/scrape-cli && code ." 
 alias zshconfig="mate ~/.zshrc"
 
 # PHP
