@@ -9,14 +9,10 @@ alias c="clear"
 alias compile="commit 'compile'"
 alias version="commit 'version'"
 alias dot="cd $DOTFILES && code ."
+alias doti="cd $DOTFILES && fresh.sh"
 alias wd="cd $HOME/Sites/wedance.vip && code ."
 alias wh="cd $HOME/Sites/wehelp.live && code ." 
 alias zshconfig="mate ~/.zshrc"
-
-# Directories
-alias dotfiles="cd $DOTFILES"
-alias library="cd $HOME/Library"
-alias sites="cd $HOME/Sites"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
