@@ -10,6 +10,7 @@ git clone git@github.com:razbakov/blog.git $SITES/razbakov.com
 git clone git@github.com:we-dance/platform.git $SITES/wedance.vip
 git clone git@github.com:wehelplive/wehelp.live.git $SITES/wehelp.live
 git clone git@github.com:razbakov/moneydo-2.git $SITES/moneydo.vip
+git clone git@github.com:we-dance/scrape-cli.git $SITES/scrape-cli
 
 # Banovo
 git clone git@github.com:banovo/edelweiss.git $BANOVO/edelweiss
