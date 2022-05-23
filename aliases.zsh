@@ -14,6 +14,7 @@ alias wd="cd $HOME/Sites/wedance.vip && code ."
 alias wh="cd $HOME/Sites/wehelp.live && code ." 
 alias sc="cd $HOME/Sites/scrape-cli && code ." 
 alias gut="cd $HOME/Banovo/gut-scraper && code ." 
+alias bg="cd $HOME/Banovo/bridge && code ." 
 alias zshconfig="mate ~/.zshrc"
 
 # PHP
