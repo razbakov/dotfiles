@@ -119,3 +119,5 @@ export PUPPETEER_EXECUTABLE_PATH=`which chromium`
 export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=5000
 export HISTFILESIZE=100000
+
+export DOCKER_DEFAULT_PLATFORM=linux/arm64/v8
